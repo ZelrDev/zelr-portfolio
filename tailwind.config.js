@@ -1,0 +1,35 @@
+module.exports = {
+  content: [
+    "./src/components/**/*.{ts,tsx,js,jsx}",
+    "./src/pages/**/*.{ts,tsx,js,jsx}",
+  ],
+  theme: {
+    fontFamily: {
+      title: ["Couture", "sans-serif"],
+      serif: ["Welland", "serif"],
+      mirava: ["Mirava", "sans-serif"],
+      brand: ["Hey August", "sans-serif"],
+      alt: ["'Keep Calm Med'", "sans-serif"],
+      alt2: ["'Champagne & Limousines'", "sans-serif"],
+    },
+    colors: {
+      background: "#e2dedd",
+      "dark-background": "#000",
+      "netor-background": "#c8d2fa",
+      "netor-text": "#394c99",
+      button: "#575757",
+      title: "#575757",
+      "dark-title": "#c2c2c2",
+      white: "#fff",
+      brand: "#dfc0c6",
+      "brand-dark": "#bf7784",
+      gray: "#aaa9aa",
+      "light-gray": "#d9d9d9",
+      black: "#000",
+      transparent: "rgba(255, 255, 255, 0)",
+    },
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
+};
