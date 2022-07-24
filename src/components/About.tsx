@@ -12,7 +12,11 @@ export default function About() {
   return (
     <div className="max-w-6xl px-7 xl:px-0 mx-auto space-y-24">
       <div className="flex justify-start md:items-center md:gap-20 gap-5 md:flex-row flex-col">
-        <Image src="https://avatars.githubusercontent.com/u/85405932" />
+        <Image
+          width="210"
+          height="210"
+          src="https://avatars.githubusercontent.com/u/85405932"
+        />
         <div className="space-y-5">
           <div>
             <h2 className="font-brand text-6xl text-title">zelr</h2>

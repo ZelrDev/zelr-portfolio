@@ -29,7 +29,12 @@ export default function Bettercharts() {
             </div>
           </div>
           <div className="py-10 w-[500px]">
-            <Image borderRadius={20} src="/images/bc-tw-dash.png" />
+            <Image
+              width="1280"
+              height="720"
+              borderRadius={20}
+              src="/images/bc-tw-dash.png"
+            />
             <p className="font-alt2 text-brand-dark text-sm font-semibold pt-2">
               Image of Bettercharts Dashboard with TailwindUI
             </p>
@@ -38,7 +43,12 @@ export default function Bettercharts() {
 
         <div className="lg:flex justify-between items-center">
           <div className="w-[500px] py-10">
-            <Image borderRadius={20} src="/images/bc-tw-beh.png" />
+            <Image
+              width="1280"
+              height="720"
+              borderRadius={20}
+              src="/images/bc-tw-beh.png"
+            />
             <p className="font-alt2 text-brand-dark text-sm font-semibold text-right pt-2">
               Image of Bettercharts Behaviour with TailwindUI
             </p>

@@ -1,5 +1,6 @@
 import Card from "./Card";
 import Image from "./Image";
+import NextImage from "next/image";
 
 export default function Netor() {
   return (
@@ -7,7 +8,9 @@ export default function Netor() {
       <div className="lg:px-20 md:px-10 px-5 space-y-10">
         <div className="font-alt2 text-2xl text-title pb-20">project 1</div>
 
-        <img src="/images/netor.png" className="mx-auto h-24" />
+        <div className="flex justify-center">
+          <NextImage width="96" height="96" src="/images/netor.png" />
+        </div>
 
         <div className="text-center font-serif text-title text-6xl">Netor</div>
         <div
@@ -26,7 +29,12 @@ export default function Netor() {
             itself is coded in Python using the discord.py library.
           </div>
         </div>
-        <Image borderRadius={20} src="/images/netor-ums.png" />
+        <Image
+          height="886"
+          width="1706.66666667"
+          borderRadius={20}
+          src="/images/netor-ums.png"
+        />
         <div className="flex justify-start">
           <div className="space-y-5 text-left">
             <h2 className="font-serif text-title text-3xl">Development</h2>
