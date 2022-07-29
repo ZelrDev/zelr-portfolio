@@ -1,12 +1,17 @@
 import Card from "./Card";
 import Image from "./Image";
 import NextImage from "next/image";
+import Link from "next/link";
 
 export default function Netor() {
   return (
     <div className="space-y-32 bg-light-gray py-16">
       <div className="lg:px-20 md:px-10 px-5 space-y-10">
-        <div className="font-alt2 text-2xl text-title pb-20">project 1</div>
+        <Link passHref href="/">
+          <p className="font-alt2 text-2xl text-title font-black hover:border-b-2 hover:border-b-title cursor-pointer border-b-2 border-b-transparent transition-all pb-1 top-10 fixed">
+            go back
+          </p>
+        </Link>
 
         <div className="flex justify-center">
           <NextImage width="96" height="96" src="/images/netor.png" />

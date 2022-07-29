@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Card from "./Card";
 import Image from "./Image";
 
@@ -5,7 +6,11 @@ export default function Bettercharts() {
   return (
     <div className="space-y-32 py-16">
       <div className="lg:px-20 md:px-10 px-5 space-y-10">
-        <div className="font-alt2 text-2xl text-title pb-20">project 2</div>
+        <Link passHref href="/">
+          <p className="font-alt2 text-2xl text-title font-black hover:border-b-2 hover:border-b-title cursor-pointer border-b-2 border-b-transparent transition-all pb-1 top-10 fixed">
+            go back
+          </p>
+        </Link>
 
         <div className="text-center font-serif text-title text-6xl">
           Bettercharts
